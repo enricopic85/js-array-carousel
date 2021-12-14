@@ -32,6 +32,10 @@
     cursor: pointer;
     font-size: 40px;
 }
+.fa-arrow-left:hover,.fa-arrow-right:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
 .line{
     background-color: blue;
     width: 300px;
@@ -44,4 +48,16 @@
      color: white; 
     font-weight: 700;
     font-size: 20px;
+}
+.pulsanti{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.pulsante{
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
 }
